@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   border: none;
+}
+
+img{
+   border-radius: 3%;
+}
+
+.container{
+   font-family: 'Outfit';
+   width: 100vw;
+   height: 100vh;
+   background: hsl(217, 54%, 11%);
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+  
+}
+
+.card{
+   background-color: hsl(216, 50%, 16%);
+   padding: 20px;
+   border-radius: 3%;
+
+}
+
+#bitcoin{
+   color: hsl(178, 100%, 50%);
+}
+
+.title{
+   font-size: 23px;
+   color: hsl(0, 0%, 100%);
+   margin-top: 4px;
+   margin-bottom: 10px;
+}
+
+.textProject{
+ color: hsl(215, 51%, 70%);  
+}
+
+
