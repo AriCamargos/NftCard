@@ -5,53 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="/style.css">
-  <title>Frontend Mentor | NFT preview card component</title>
+  <title>Frontend Mentor | NFT preview card component</title> <!-- Titulo na barra  -->
 
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;500&display=swap');
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+  
 </head>
 <body>
   <div class="container">
     <div class="card"> 
-    
+    <img src="images/image-equilibrium.jpg" alt="image-equilibrium" width="300">
   
-  <div class="box">
-
-  
-  <img src="images/image-equilibrium.jpg" alt="image-equilibrium" width="300">
-  
-  <div class="square"></div>
-
-  <div>
-    <p class="title">
+    <div>
+      <p class="title">
       Equilibrium #3429
-    </p>
-    <div class="textProject">
-      <p>
-        Our Equilibrium collection promotes <br> balance and calm.
       </p>
+      <hr>
+
+    <div class="text">
+        Our Equilibrium collection promotes <br> balance and calm.
     </div>
 
-  </div>
-    <div class="textProject">
-     <p id="bitcoin">0.041 ETH</p> 3 days left
-    </div>
+  <div class="container2">    
+    <img src="images/icon-ethereum.svg" alt="icon-ethereum">
+    <div id="text1"> 0.041 ETH </div>
 
-  </div>
-
-  <div class="textProject">
-    Creation of
-  </div>
-  <div class="nameAuthor">
-    Jules Wyvern
+    <img src="images/icon-clock.svg" alt="icon-clock">
+    <div id="category1">3 days left</div>
   </div>
 
+  <div class="line"></div>
+
+  <div class="container3">
+    <img src="images/image-avatar.png" width="30px" alt="avatar">
+    <div id="category">Creation of</div> 
+    <div id="textname"> Jules Wyvern </div>
+  </div>
+  
+  <br>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">@AriCamargos</a>.
-  </div>
+    Coded by <a href="https://github.com/AriCamargos" target="_blank">@AriCamargos</a>.
   </div>
 </div>
 </body>
